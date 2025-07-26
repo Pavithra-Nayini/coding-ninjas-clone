@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Coding Ninjas Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a frontend-only clone of the official [Coding Ninjas](https://www.codingninjas.com/) website, built using **React.js** and **Tailwind CSS**. It replicates the layout, components, and styling of the original site to demonstrate strong frontend development.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ✅ Fully responsive layout  
+- ✅ Built with modern React components  
+- ✅ Utility-first styling using Tailwind CSS  
+- ✅ Clean and scalable folder structure
 
-### `npm start`
+##  Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Tech Stack     |   Description                              |
+|----------------|--------------------------------------------|
+| React.js       |  Component-based frontend library          |
+| Tailwind CSS   |  Utility-first CSS framework for styling   |
+| Vite           |  Fast build tool and development server    |
+| React Router   |  Client-side routing for multiple pages    |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🔧 Getting Started (Installation Guide)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these detailed steps to run the project locally:
 
-### `npm run build`
+### 1️⃣ Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure the following tools are installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** 
+- **npm** 
+- **Git**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 2️⃣ Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**git clone https://github.com/Pavithra-Nayini/coding-ninjas-clone.git**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**cd coding-ninjas-clone**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will download the project files into a folder named coding-ninjas-clone and move you inside that folder.
 
-## Learn More
+### 3️⃣ Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install all required packages using npm:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**npm install**
 
-### Code Splitting
+This will read the package.json file and install the necessary libraries like React, Tailwind CSS, React Router, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4️⃣ Start the Development Server
 
-### Analyzing the Bundle Size
+Run the app using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**npm run dev**
 
-### Making a Progressive Web App
+This will launch the app on http://localhost:5173
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ ### Notes
+ 
+- **This is a frontend-only clone.**
 
-### Advanced Configuration
+- **No backend or dynamic functionality is implemented.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Created for learning, practice, and portfolio showcase purposes.**
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
